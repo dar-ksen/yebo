@@ -1,0 +1,14 @@
+.social {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &__link {
+    transition: transform 0.3s;
+    margin: 0 7.5px;
+    &:hover,
+    &:focus {
+      transform: scale(1.2);
+    }
+  }
+}

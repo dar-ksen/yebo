@@ -1,0 +1,25 @@
+.location {
+  font-size: 14px;
+  color: #848789;
+
+  &__header {
+    margin: 0;
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  &__street {
+    font-style: italic;
+    margin: 0;
+  }
+
+  &__mail {
+    transition: opacity 0.3s;
+    color: inherit;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

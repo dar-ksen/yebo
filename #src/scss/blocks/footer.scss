@@ -1,0 +1,47 @@
+.footer {
+  background-color: #f7f7f7;
+  padding: 100px 0;
+
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__copyright {
+    transform: opacity 0.3s;
+    color: #848789;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    span {
+      margin-right: 9px;
+    }
+
+    img {
+      transition: transform 0.3s;
+    }
+
+    &:hover {
+      opacity: 0.8;
+      img {
+        transform: scale(1.2);
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    text-align: center;
+
+    &__body {
+      flex-direction: column;
+    }
+
+    &__location {
+      margin: 0 0 30px;
+    }
+
+    &__social {
+      margin: 0 0 30px;
+    }
+  }
+}

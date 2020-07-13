@@ -1,0 +1,74 @@
+.subscribe {
+  padding: 110px 0;
+
+  &__body {
+    text-align: center;
+  }
+
+  &__logo {
+    margin-bottom: 39px;
+  }
+
+  &__slogan {
+    color: #848789;
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0 0 35px;
+  }
+
+  &__form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    input {
+      padding: 28px 28px 24px;
+      border: 1px solid #d3d7d9;
+      background-color: #ffffff;
+      color: #929292;
+      font-family: Lato;
+      font-size: 20px;
+      line-height: 24px;
+      margin-right: 8px;
+
+      &:focus {
+        outline-color: #64c29e;
+      }
+    }
+
+    button {
+      transition: opacity 0.5s;
+      background-color: #64c29e;
+      color: #ffffff;
+      font-family: Lato;
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 24px;
+      text-transform: uppercase;
+      border: none;
+      padding: 26px 45px;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.5;
+        background-color: #64c29e;
+      }
+
+      &:focus {
+        opacity: 0.7;
+        outline: #64c29e;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    input {
+      width: 100%;
+      margin: 0 0 15px 0;
+    }
+
+    button {
+      width: 100%;
+    }
+  }
+}

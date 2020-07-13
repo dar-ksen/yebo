@@ -1,0 +1,15 @@
+.generation {
+  padding: 120px 0 120px;
+  background-color: #f7f7f7;
+
+  @media (max-width: 900px) {
+    padding: 80px 0;
+  }
+
+  @media (max-width: 600px) {
+    padding: 60px 0;
+  }
+
+  &__block {
+  }
+}
